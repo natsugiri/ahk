@@ -2,6 +2,20 @@
 #InstallMouseHook
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Short Cut
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+#IfWinActive, ahk_class Chrome_WidgetWin_1
+^j::Send, {BackSpace}
+^h::Send, {Delete}
+^a::Send, {Home}
+^d::Send, {End}
+^y::Send, {Right}
+^n::Send, {Left}
+#a::Send, ^a
+#IfWinActive,
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Menu
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 Menu, Tray, Icon, icon/programmer_dvorak.ico, , 0
@@ -44,7 +58,7 @@ Menu, Tray, Icon, icon/programmer_dvorak.ico, , 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Control
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-^;::^;
+^;::^s
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -88,14 +102,13 @@ d::e
 f::u
 g::i
 h::d
-^j::Send, ^h
+;;  ^j::Send, ^h
 j::h
 k::t
 l::n
 vkBBsc027::s ;; Semicolon
 vkBAsc028::- ;; Colon
 ]::\
-
 
 z::+7
 x::q
