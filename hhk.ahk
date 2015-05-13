@@ -11,11 +11,11 @@
 @::[
 [::]
 ]::\
-+vkBBsc027::Send, :
-vkBAsc028:: Send, '
-+vkBAsc028::Send, "
++vkBBsc027::Send, : ;; +Semicolon
+vkBAsc028:: Send, ' ;; Colon
++vkBAsc028::Send, " ;; +Colon
 vkF3sc029::Send, `` ;; Zenkaku
-+VkF3sc029::Send, ~
++VkF3sc029::Send, ~ ;; +Zenkaku
 vkF4sc029::Send, `` ;; Hankaku
-+VkF4sc029::Send, ~
++VkF4sc029::Send, ~ ;; +Hankaku
 #UseHook Off
